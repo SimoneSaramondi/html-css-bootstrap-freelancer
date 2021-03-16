@@ -1,0 +1,12 @@
+
+header .row{
+    background-color: rgb(44, 62, 80);
+    color: aliceblue;
+    padding: 10px 0;
+}
+header .row:nth-child(2){
+    background-color: rgb(26, 188, 156);
+}
+nav .row{
+    color: chartreuse;
+}
