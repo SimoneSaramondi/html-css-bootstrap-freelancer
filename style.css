@@ -11,7 +11,6 @@ nav{
     padding: 20px 0;
 }
 nav .row{
-    color: chartreuse;
     padding: 10px 0;
 }
 main .row:first-child{
@@ -28,4 +27,7 @@ footer .row:first-child{
 }
 footer .row:last-child{
     background-color: rgb(44, 62, 80);
+}
+h1{
+    text-align: center;
 }
