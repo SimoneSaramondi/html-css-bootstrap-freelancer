@@ -20,6 +20,9 @@ main .row:first-child{
 main .row{
     padding: 20px 0; 
 }
+footer .row{
+    padding: 20px 0; 
+}
 footer .row:first-child{
     background-color: rgb(58, 89, 109);
 }
