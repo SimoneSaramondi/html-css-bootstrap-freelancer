@@ -4,54 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <!--Bisogna aggiungere tutte le larghezze-->
 <body>
     <header>
-        <nav class="navbar navbar-default">
-            <div class="container">
+        <nav class="navbar navbar-inverse navbar-my-theme">
+           <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
                       START BOOTSTRAP
-            </div>
+                    </a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">PROFILO</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div> 
         </nav>
     </header>
 
     <main>
         <section class="color-green">
-            
-        </section>
-        <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="box"></div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="box"></div>
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <div class="my-img-container center-block">
+                            <img src="img/avatar.svg" class="img-responsive">
+                        </div>
+
+                        
+                        <h2 class="text-center text-uppercase my-h2">Start Bootstrap</h2>
+                        
                     </div>
                 </div>
             </div>
         </section>
-        <section class="color-green"></section>
-        <section></section>
+        <section>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-6 col-sm-offset-3">                        
+                        <h1 class="text-center text-uppercase">Portfolio</h1>                        
+                    </div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <div class="box">
+                            <img src="img/cabin.png" class="img-responsive my-img center-block img-rounded">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="box">
+                            <img src="img/cake.png" class="img-responsive my-img center-block img-rounded">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="box">
+                            <img src="img/circus.png" class="img-responsive my-img center-block img-rounded">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="box">
+                            <img src="img/game.png" class="img-responsive my-img center-block img-rounded">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="box">
+                            <img src="img/safe.png" class="img-responsive my-img center-block img-rounded">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="box">
+                            <img src="img/submarine.png" class="img-responsive my-img center-block img-rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="color-green">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">                
+                        <div class="row">
+                            <div class="col-md-6"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur at fugiat, nisi id asperiores itaque, aut, et voluptate repudiandae maiores quam provident ipsa. Ipsum molestiae sint error repellendus nam.</p></div>
+                            <div class="col-md-6"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde modi perspiciatis, eaque nemo animi tempore! Culpa impedit aspernatur ad placeat quae praesentium similique commodi corrupti. Mollitia dolores veritatis commodi accusamus!</p></div>
+                        </div>
+                        <div><button class="btn btn-default center-block btn-outline-block" href="#" role="button">Download</button></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <form>
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone number">
+                              </div>  
+                              <div class="form-group">
+                                <textarea type="password" class="form-control" id="exampleInputPassword1" placeholder="Mesagge"></textarea>
+                              </div>                              
+                          </form>
+                          <a class="btn btn-default" href="#" role="button">Send</a>
+                         
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>

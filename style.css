@@ -1,6 +1,13 @@
 .navbar-section{
     background-color: rgb(44, 62, 80);
-    height: 60px;
+}
+.navbar-my-theme{
+    background-color: rgb(44, 62, 80);
+    margin-bottom: 0;
+}
+.navbar-my-theme .navbar-brand,
+.navbar-my-theme .navbar-nav>li>a{
+    color: white;
 }
 section{
     min-height: 150px;
@@ -12,7 +19,23 @@ section{
     background-color: rgb(58, 84, 109);
 }
 .box{
-    background-color: crimson;
-    min-height: 100px;
     margin: 15px 0;
+}
+.my-img-container{
+    max-width: 150px;
+}
+.my-h2{
+    color: white;
+}
+.form-control{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.btn-outline-block{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
 }
