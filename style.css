@@ -1,33 +1,10 @@
-header .row{
-    background-color: rgb(44, 62, 80);
-    color: aliceblue;
-    padding: 10px 0;
+.navbar-section{
+    background-color: aqua;
+    height: 60px;
 }
-header .row:nth-child(2){
-    background-color: rgb(26, 188, 156);
-    padding: 10px 0;
+section{
+    height: 150px;
 }
-nav{
-    padding: 20px 0;
-}
-nav .row{
-    padding: 10px 0;
-}
-main .row:first-child{
-    background-color: rgb(26, 188, 156);
-}
-main .row{
-    padding: 20px 0; 
-}
-footer .row{
-    padding: 20px 0; 
-}
-footer .row:first-child{
-    background-color: rgb(58, 89, 109);
-}
-footer .row:last-child{
-    background-color: rgb(44, 62, 80);
-}
-h1{
-    text-align: center;
+.color-green{
+    background-color: chartreuse;
 }
