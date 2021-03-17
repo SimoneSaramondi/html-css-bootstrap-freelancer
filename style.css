@@ -1,10 +1,18 @@
 .navbar-section{
-    background-color: aqua;
+    background-color: rgb(44, 62, 80);
     height: 60px;
 }
 section{
-    height: 150px;
+    min-height: 150px;
 }
 .color-green{
-    background-color: chartreuse;
+    background-color: rgb(26, 188, 156);
+}
+.color-blu{
+    background-color: rgb(58, 84, 109);
+}
+.box{
+    background-color: crimson;
+    min-height: 100px;
+    margin: 15px 0;
 }
