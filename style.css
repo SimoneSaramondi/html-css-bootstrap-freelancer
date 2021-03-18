@@ -11,7 +11,7 @@
     color: white;
 }
 section{
-    min-height: 150px;
+    padding: 20px 0;
 }
 .color-green{
     background-color: rgb(26, 188, 156);
@@ -46,4 +46,41 @@ section{
     background-color: rgb(26, 188, 156);
     color: white;
     border: 1px solid transparent;
+}
+.line{
+    border-top: solid 4px white;
+    background-color: white;
+    border-radius: 2px;
+    width: calc(50% - 50px);
+    display: inline-block;
+}
+.start{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 30px;    
+    margin: 0 10px;
+    color: white;
+}
+.my-star{
+    color: black;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 30px;    
+    margin: 0 10px;
+}
+.my-line{
+    border-top: solid 4px;
+    border-radius: 2px;
+    width: calc(50% - 50px);
+    display: inline-block;
+}
+.start span{
+    vertical-align: text-top;
+}
+.start-container{
+    max-width: 320px;
+    text-align: center;
+}
+footer {
+    color: white;
 }
