@@ -4,6 +4,7 @@
 .navbar-my-theme{
     background-color: rgb(44, 62, 80);
     margin-bottom: 0;
+    border-radius: 0;
 }
 .navbar-my-theme .navbar-brand,
 .navbar-my-theme .navbar-nav>li>a{
@@ -24,7 +25,9 @@ section{
 .my-img-container{
     max-width: 150px;
 }
-.my-h2{
+.my-p,
+.my-h2,
+.my-a{
     color: white;
 }
 .form-control{
@@ -38,4 +41,9 @@ section{
     background-color: transparent;
     border: 1px solid white;
     color: white;
+}
+.my-button{
+    background-color: rgb(26, 188, 156);
+    color: white;
+    border: 1px solid transparent;
 }
