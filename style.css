@@ -84,3 +84,12 @@ section{
 footer {
     color: white;
 }
+footer h3,
+footer p{
+    text-align: center;
+}
+.color-blu i{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
